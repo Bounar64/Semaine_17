@@ -1,0 +1,61 @@
+ ----------------- Atelier -----------------
+
+1. Que signifie le terme NoSQL ?
+
+	Le terme NoSQL signifie Not Only Structured Query Language.
+
+2. Pourquoi parle-t-on de "non relationnel" ?
+
+	À l'inverse des bases de données SQL relationnelles, 
+	les bases de données NoSQL n'utilisent pas de tableaux traditionnels (lignes et colonnes) pour le stockage des données. 
+	Elles organisent les gros volumes de données au moyen de techniques flexibles, tels que des documents, graphiques, 
+	paires de valeurs et colonnes.
+
+3. Comment sont nées les bases NoSQL ?
+	
+	Les géants du web créent des systèmes NoSql
+
+4. Y-a-t-il un seul type de base NoSQL ?
+
+	Il existe plusieurs types de bases selon les utilisations :
+
+		- clé-valeurs :
+			Les bases de données clé/valeur, sont la forme la plus simple des bases NoSQL.
+			Elles associent des clés uniques à des valeurs dans des données, avec pour objectif de renforcer fortement 
+			les performances des applications reposant sur des jeux de données relativement simple.
+
+		- Documents :
+			Les bases de données orientées document sont souvent utilisées dans les systèmes de gestion de contenus, 
+			ainsi que pour collecter et traiter des données à partir des applications mobiles ou Web à fort trafic pour
+			les monitorer.
+			Comme l’indique leur nom, ces bases stockent les données dans des structures identiques à celles de documents,  
+			parfois sans même de schémas.
+
+		- Colonnes :
+			Les bases de données en colonnes conservent les données dans des tables 
+			qui disposent d’un très grand nombre de colonnes. 
+			Ce qui offre des hauts niveaux de performance et de dimensionnement lorsqu’il faut traiter (et parcourir) 
+			d’importants jeux de données.
+
+		- Graphes :
+			Les bases de données en graphes, stockent des éléments de données dans des structures "en graphes" et 
+			permettent de créer des associations entre eux pour, au final, servir de socle à des moteurs de recommandations 
+			ou des réseaux sociaux.
+
+5.Dans quel cas utiliser une base NoSQL ?
+
+	Selon les besoins :
+		- Structure des données
+		- Fréquences des évolutions
+		- Volume des données
+		- Fréquence d'utilisation
+
+	Si l'on a, à gérer des données d'un programme assez stable dans le temps et pas souvent modifié --> SQL.
+
+		exemple : - Les données d'une Entreprises.
+
+	Si l'on a, à gérer des tonnes de données (Big Data) et qui change fréquement --> NoSQL.
+
+		exemple : - Jeux en ligne
+		          - Réseaux sociaux
+			  
